@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point for the program
  *
  * This function prints a message to the console using
