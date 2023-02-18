@@ -2,8 +2,8 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Description: Print base 16 numbers
- * Return: Always 0 (success)
+ * Description: All base 16 numbers
+ * Return: 0 for success
  */
 int main(void)
 {
