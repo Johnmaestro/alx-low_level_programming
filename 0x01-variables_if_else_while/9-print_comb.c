@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Description: prints numbers
+ * Description: combo digits
  * Return: Always 0 (success)
  */
 int main(void)
@@ -15,8 +15,7 @@ int main(void)
 
 		if (i != '9')
 		{
-			putchar(',');
-			putchar(' ');
+			putchar(', ');
 		}
 	}
 
