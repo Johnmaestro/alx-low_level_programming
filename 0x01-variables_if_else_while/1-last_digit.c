@@ -3,12 +3,13 @@
 #include <time.h>
 /**
  * main - Entry point
- * Description: checks on the last digit of the assigned var
+ * Description: checks the last digit of a random number
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	int n, m;
+	int n;
+	int m;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
