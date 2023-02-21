@@ -9,18 +9,21 @@ void jack_bauer(void)
 
 	for (i = 0; i <= 2; i++)
 	{
-		for (j = 0; j <= 3; j++)
+		for (j = 0; j <= 9; j++)
 		{
-			for (m = 0; m <= 5; m++)
+			if ((i <= 1 && j <= 9) || (i <= 2 && j <= 4))
 			{
-				for (n = 0; n <= 9; n++)
+				for (m = 0; m <= 5; m++)
 				{
-					_putchar('0' + i);
-					_putchar('0' + j);
-					_putchar(':');
-					_putchar('0' + m);
-					_putchar('0' + n);
-					_putchar('\n');
+					for (n = 0; n <= 9; n++)
+					{
+						_putchar('0' + i);
+						_putchar('0' + j);
+						_putchar(':');
+						_putchar('0' + m);
+						_putchar('0' + n);
+						_putchar('\n');
+					}
 				}
 			}
 		}
