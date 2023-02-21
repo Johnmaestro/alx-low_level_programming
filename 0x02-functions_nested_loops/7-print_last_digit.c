@@ -19,8 +19,9 @@ int print_last_digit(int num)
 	}
 	else if (num == INT_MIN)
 	{
-		_putchar('8');
-		return ('8');
+		m = 18 % 10;
+		_putchar('0' + m);
+		return ('m');
 	}
 	else
 	{
