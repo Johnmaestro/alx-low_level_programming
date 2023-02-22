@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-	long int i, c;
-	long int a = 1;
-	long int b = 2;
+	unsigned long long i, c;
+	unsigned long long a = 1;
+	unsigned long long b = 2;
 
 	for (i = 1; i <= 98; i++)
 	{
 		if (i == 98)
-			printf("%ld\n", a);
+			printf("%llu\n", a);
 		else
-			printf("%ld, ", a);
+			printf("%llu, ", a);
 		c = a + b;
 		a = b;
 		b = c;
