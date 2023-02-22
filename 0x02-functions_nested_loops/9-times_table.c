@@ -17,29 +17,29 @@ void times_table(void)
 			{
 				a = k % 10;
 				b = k / 10;
-				if (j == 9)
+				if (j == 0)
 				{
 					_putchar(b + '0');
 					_putchar(a + '0');
 				}
 				else
 				{
-					_putchar(b + '0');
-					_putchar(a + '0');
 					_putchar(',');
 					_putchar(' ');
+					_putchar(b + '0');
+					_putchar(a + '0');
 				}
 			}
 			else
 			{
-				if (j == 9)
+				if (j == 0)
 					_putchar('0' + k);
 				else
 				{
-					_putchar('0' + k);
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
+					_putchar('0' + k);
 				}
 			}
 		}
