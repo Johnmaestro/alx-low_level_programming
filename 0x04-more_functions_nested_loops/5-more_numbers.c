@@ -12,11 +12,9 @@ void more_numbers(void)
 		{
 			if (j > 9)
 			{
-				_putchar('0' + j / 10);
-				_putchar('0' + j % 10);
+				_putchar('1');
 			}
-			else
-				_putchar('0' + j);
+			_putchar('0' + j % 10);
 		}
 		_putchar('\n');
 	}
