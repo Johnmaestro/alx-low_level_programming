@@ -1,7 +1,11 @@
 #include "main.h"
 /**
+ * _strncat - concartanates strings
  *
- *
+ * @dest: destination
+ * @src: source
+ * @n: maximum number
+ * Return: returns destination
  */
 char *_strncat(char *dest, char *src, int n)
 {
