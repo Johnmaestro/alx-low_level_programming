@@ -1,6 +1,12 @@
 #include "main.h"
 /**
+ * _strcat - function to concaternate
  *
+ * @dest: destination
+ *
+ * @src: source
+ *
+ * Return: returns concaternated string
  *
  */
 char *_strcat(char *dest, char *src)
