@@ -22,12 +22,12 @@ int _strcmp(char *s1, char *s2)
 	{
 		while (s1[m] != '\0')
 		{
-			if (s1[m] > s2[m])
+			if (s1[m] < s2[m])
 			{
 				num *= 1;
 				break;
 			}
-			if (s1[m] < s2[m])
+			if (s1[m] > s2[m])
 			{
 				num *= -1;
 				break;
