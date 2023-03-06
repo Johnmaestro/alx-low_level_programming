@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- *
- *
+ * _memset - memset function
+ * @s: where the memory is set
+ * @b: the character to be stored in the memory
+ * @n: bytes to be stored
  */
 char *_memset(char *s, char b, unsigned int n)
 {
