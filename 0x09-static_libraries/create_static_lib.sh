@@ -1,3 +1,4 @@
 #!/bin/bash
-sudo gcc -c *.c
-sudo ar rcs liball.a *.o
+sudo gcc -Wall -pedantic -Werror -Wextra -c *.c
+sudo ar -rc liball.a *.o
+rainlib liball.a
