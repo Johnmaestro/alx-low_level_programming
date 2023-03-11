@@ -10,8 +10,20 @@
 int main(int argc, char *argv[])
 {
 	int i;
+	int a = 1, b = 0;
 	int res = 0;
 
+	for (; a < argc; a++)
+	{
+		for (; argv[a][b] != '\0'; b++)
+		{
+			if (argv[a][b] < '0' || argv[a][b] > '9')
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+	}
 	if (argc < 2)
 	{
 		printf("0\n");
