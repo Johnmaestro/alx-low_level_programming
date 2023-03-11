@@ -46,6 +46,6 @@ int main(int argc, char *argv[])
 			}
 		}
 		printf("%d\n", res);
-		return (0);
 	}
+	return (0);
 }
