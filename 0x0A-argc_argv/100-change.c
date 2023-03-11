@@ -18,10 +18,10 @@ int main(int argc, char *argv[])
 	int j;
 	int coins[] = {1, 2, 5, 10, 25};
 
-	if (x <= 0)
+	if (x < 0)
 	{
 		printf("0\n");
-		return (1);
+		return (0);
 	}
 	for (j = 4; j >= 0 && x >= 0; j--)
 	{
